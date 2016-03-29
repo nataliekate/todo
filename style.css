@@ -1,0 +1,71 @@
+body {
+  font-family: Raleway;
+  margin: 0;
+  padding: 0;
+  background: snow;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  color: coral;
+  font-size: 3em;
+  text-decoration: underline dotted bisque;
+}
+
+#info {
+  color: coral;
+  display: block;
+}
+
+#archive {
+  color: cadetblue;
+}
+
+.unstyled {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  width: 300px;
+}
+
+.done-false {
+  color: cadetblue;
+}
+
+.done-true {
+  text-decoration: line-through;
+  color: grey;
+}
+
+li {
+  margin: 10px 0;
+}
+
+input {
+      border: 1px solid bisque;
+      padding: 10px;
+      border-radius: 15px;
+} 
+
+input:hover, input:active {
+  border: 1px solid pink;
+  box-shadow: 0px 0px 5px 1px pink;
+}
+
+input.text {
+  background: white;
+  color: #333;
+}
+
+#btn-add {
+  background-color: pink;
+  background-image: linear-gradient(top, salmon, hotpink);
+  background-image: -moz-linear-gradient(top, salmon, hotpink);
+  background-repeat: repeat-x;
+  color: white;
+  border: none;
+}
